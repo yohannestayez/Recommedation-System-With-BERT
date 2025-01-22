@@ -12,7 +12,10 @@ COLUMNS = [
     "province","taster_name"
 ]
 MAX_LENGTH = 512  # BERT's token limit
-BATCH_SIZE = 16    # Adjust based on GPU memory
+BATCH_SIZE = 16    # Batch size for training
 
 
-#country	description	designation		province	taster_name	taster_twitter_handle	title	variety	winery	region	price_range	points_range
+# Evaluation parameters
+TEST_SIZE = 0.2         # Split for train/test
+METRIC_TOP_K = [10, 15]  # Evaluate for top 10 and top 15
+RELEVANCE_POINTS_THRESHOLD = 90  # Wines with points ≥90 are "relevant"
