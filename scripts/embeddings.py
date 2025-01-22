@@ -1,10 +1,12 @@
+import os
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'  # Add this before other imports
 import torch
 import numpy as np
 from tqdm import tqdm
 from model import load_bert
 from config import SAVE_DIR, MAX_LENGTH, BATCH_SIZE
 import pandas as pd
-import os
+
 
 def generate_embeddings():
     """Generate BERT embeddings for structured input."""
