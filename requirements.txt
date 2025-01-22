@@ -1,2 +1,6 @@
 # List your project dependencies here
-
+pandas
+transformers
+torch
+faiss-cpu
+tqdm
