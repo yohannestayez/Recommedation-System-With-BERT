@@ -36,4 +36,4 @@ def recommend(query_text, top_k=5):
 if __name__ == "__main__":
     query = input("Enter a wine description: ")
     recommendations = recommend(query)
-    print(recommendations[["title", "variety","country", "price_range","description"]])
+    print(recommendations[["title", "variety","country", "price_range", "description"]])
