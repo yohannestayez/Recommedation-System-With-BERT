@@ -1,6 +1,6 @@
 # Paths and constants
-DATA_PATH = "Data/Processed/wine_data_processed.csv"
-SAVE_DIR = "Data/Processed"
+DATA_PATH = "../Data/Processed/wine_data_processed.csv"
+SAVE_DIR = "../Data/Processed"
 SPECIAL_TOKENS = [
     "[DESC]", "[DEG]","[TITLE]", "[VARIETY]", "[REGION]",
     "[COUNTRY]", "[PRICE]", "[POINTS]", "[WINERY]", 
