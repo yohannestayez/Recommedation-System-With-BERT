@@ -1,5 +1,5 @@
 import os
-os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'  # Add this before other imports
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'  
 import torch
 import numpy as np
 from tqdm import tqdm

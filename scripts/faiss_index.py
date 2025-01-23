@@ -1,5 +1,5 @@
 import os
-os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'  # Add this before other imports
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE' 
 import faiss
 import numpy as np
 from config import SAVE_DIR
