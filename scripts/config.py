@@ -18,4 +18,3 @@ BATCH_SIZE = 16    # Batch size for training
 # Evaluation parameters
 TEST_SIZE = 0.2         # Split for train/test
 METRIC_TOP_K = [10, 15]  # Evaluate for top 10 and top 15
-RELEVANCE_POINTS_THRESHOLD = 90  # Wines with points ≥90 are "relevant"
