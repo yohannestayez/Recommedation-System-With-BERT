@@ -7,14 +7,6 @@ import numpy as np
 from config import *
 from sklearn.model_selection import train_test_split
 
-# Add this to config.py
-CATEGORY_RANKS = {
-    'low': 0,
-    'medium': 1,
-    'high': 2,
-    'unknown': 0  # Handles missing values
-}
-
 def load_data():
     """Load processed data with embeddings and clean points_range."""
     df = pd.read_csv(f"{SAVE_DIR}/processed_wines.csv")
