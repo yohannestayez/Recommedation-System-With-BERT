@@ -23,7 +23,7 @@ The project is organized as follows:
 ├── Data/                          # Directory for storing datasets
 ├── notebooks/
 │   ├── Data_Preprocessing.ipynb   # Jupyter notebook for data preprocessing
-│   └── Recommendation_sys.ipynb   # Jupyter notebook for building the recommendation system
+│   └── Recommendation_sys.ipynb   # Jupyter notebook for the recommendation system
 ├── scripts/
 │   ├── __init__.py                # Initialization file for the scripts module
 │   ├── config.py                  # Configuration settings for the project
