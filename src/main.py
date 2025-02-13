@@ -31,7 +31,7 @@ def recommend(query_text, top_k=5):
     # Load FAISS index
     index = faiss.read_index(f"{SAVE_DIR}/wine_index.faiss")
     distances, indices = index.search(query_embedding, top_k)
-    return df.iloc[indices[0]]
+    return df.iloc[indices[0]], distances
 
 if __name__ == "__main__":
     query = input("Enter a wine description: ")
